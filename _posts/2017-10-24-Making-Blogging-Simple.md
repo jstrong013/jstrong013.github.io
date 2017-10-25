@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Making blogging simple!
 ---
 {% include _toc.html %}
