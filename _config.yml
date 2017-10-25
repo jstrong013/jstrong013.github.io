@@ -9,10 +9,10 @@ minimal_mistakes_skin    : "default" # "air", "contrast", "dark", "dirt", "mint"
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Get-Info -Information Technology"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Jeremiah Strong"
+description              : "A twenty something perpetual learner who writes about technology."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -83,10 +83,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jeremiah Strong"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Service Desk Administrator who enjoys PowerShell, Technology, and simplicity. I also like cookie dough. And milk."
+  location         : "Minneapolis, MN"
   email            :
   uri              :
   bitbucket        :
@@ -95,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "jstrong013"
   gitlab           :
   google_plus      :
   keybase          :
