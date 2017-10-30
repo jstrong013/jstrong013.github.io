@@ -2,7 +2,6 @@
 title: Office 365 - Email Retention and Litigation Hold - Quick Start
 tags: [Office 365, Exchange Online]
 date: 2017-10-30 
-layout: single
 ---
 
 When it comes to the topic of Litigation Hold, Legal is often involved and getting it "right" has a vital meaning. 
@@ -24,7 +23,7 @@ Okay, with that away, shall we begin...
 
 To start off, a __retention policy__ is a method of data management on a mailbox to remove items at a certain 
 time frame. For example, the Inbox folder may have indefinite time frame of not removing content where as 
-the ìDeleted Itemsî folder may have a retention time frame of item removal of 30 days. Different retention 
+the ‚ÄúDeleted Items‚Äù folder may have a retention time frame of item removal of 30 days. Different retention 
 policies may be assessed on individuals or groups of users, however only one retention policy may be assigned 
 on a Mailbox. The calculation of item removal on folders is defined by Retention tags. 
 
@@ -35,12 +34,12 @@ explanation to be explained later below).
 
 In the Exchange environment, or in our case Office 365, there are three main types of 
 [retention tags](https://technet.microsoft.com/en-us/library/dd297955(v=exchg.160).aspx "Retention tags and retention policies in Exchange 2016"):
-1.	__Default Policy Tag (DPT)__ ñ Every retention policy has a DPT tag. Only one DPT may exist.  This 
+1.	__Default Policy Tag (DPT)__ ‚Äì Every retention policy has a DPT tag. Only one DPT may exist.  This 
 tag applies the default retention period for all items that are not defined in any retention policy tags. 
-2.	__Retention Policy Tags (RPTs)__ ñ Retention periods for [default folders](https://technet.microsoft.com/en-us/library/dn783294(v=exchg.160).aspx 
+2.	__Retention Policy Tags (RPTs)__ ‚Äì Retention periods for [default folders](https://technet.microsoft.com/en-us/library/dn783294(v=exchg.160).aspx 
 "Default folders that support Retention Policy Tags") (e.g. Inbox, Deleted Items, Sent Items, etc.) that 
 may be defined for different time intervals outside of the scope of a DPT. 
-3.	__Personal Tags__ ñ [User defined rules](https://support.office.com/en-us/article/Assign-retention-policy-to-email-messages-3e5fd2dc-633f-4a38-b313-b31b81f7cf7a 
+3.	__Personal Tags__ ‚Äì [User defined rules](https://support.office.com/en-us/article/Assign-retention-policy-to-email-messages-3e5fd2dc-633f-4a38-b313-b31b81f7cf7a 
 "Assign Retention policy to email messages") for folders and items for an action to be performed at an interval 
 of the Users choosing that does not supersede a defined interval period of the DPT or RPT(s).
 
@@ -51,7 +50,7 @@ A retention tag is configured with a __retention action__: Archive, Delete and A
 (Image captured from [Microsoft Retention Technet Documentation Page](https://technet.microsoft.com/en-us/library/dd297955(v=exchg.160).aspx "subheading 'Retention actions'"))
 
 After the retention policy is assigned to the Mailbox, a continuous process running in the background named 
-__ìManaged Folder Assistant (MFA)î__ assesses the policy tags on all the items in the Mailbox. While the 
+__‚ÄúManaged Folder Assistant (MFA)‚Äù__ assesses the policy tags on all the items in the Mailbox. While the 
 Managed Folder Assistant is always running, it may take up to a 7 days for all items to be processed with 
 the Policy Retention tag and their respective actions. If forcing the 
 [Managed Folder Assistant](https://support.office.com/en-us/article/Set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-Office-365-organization-ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce "Step 5") 
@@ -92,24 +91,24 @@ to execute the retention actions. See graphic below from Microsoft:
 Moving onto __deletions__, Exchange Online (or Office 365), handles deletions in a certain methodology. To 
 remove an item may mean a few things: 
 
-* __Delete__ ñ Describes when an item is deleted from any folder and placed in the ìDeleted Itemsî default folder 
-* __Soft delete__ ñ Describes when an item is deleted from the Deleted Items default folder and placed in the 
+* __Delete__ ‚Äì Describes when an item is deleted from any folder and placed in the ‚ÄúDeleted Items‚Äù default folder 
+* __Soft delete__ ‚Äì Describes when an item is deleted from the Deleted Items default folder and placed in the 
 [Recoverable Items folder](https://technet.microsoft.com/en-us/library/ee364755(v=exchg.160).aspx "Recoverable Items folder in Exchange 2016"). 
 Also describes when an Outlook user deletes an item by pressing Shift + Delete, which bypasses the Deleted Items default folder and places the 
 item directly in the Recoverable Items folder.
-* __Hard delete__ ñ Describes when an item is marked to be purged from the mailbox database. This is also known
+* __Hard delete__ ‚Äì Describes when an item is marked to be purged from the mailbox database. This is also known
 as a store hard delete.
 
 A mailbox consists of two locations: a visible location such as Inbox, Calendar, and Deleted Items 
 (Interpersonal messaging [[IPM] subtree](https://msdn.microsoft.com/en-us/library/office/cc842314.aspx) ) 
 and a hidden location (non-IPM subtree). One location in the non-IPM subtree is the Recoverable Items folder. The Recoverable items folder 
 while not visible to Outlook users is visible when performing eDiscovery operations. The Recoverable Items folder consists of: 
-* Deletions ñ all items deleted from the Deleted Items default folder (the folder visible in Outlook)
+* Deletions ‚Äì all items deleted from the Deleted Items default folder (the folder visible in Outlook)
 * Versions If In-Place Hold or Litigation Hold is enabled, this subfolder contains the original and modified copies of the deleted items 
-* Purges ñ If either Litigation Hold or single item recovery is enabled, this subfolder contains all items that are hard deleted. 
-* Audits ñ If mailbox audit logging is enabled for a mailbox, this subfolder contains the audit log entries. 
-* DiscoveryHolds ñ If In-Place hold is enabled, this subfolder contains all items that meet the hold query parameters and are hard deleted. 
-* Calendar Logging ñ This subfolder contains calendar changes that occur within the mailbox. 
+* Purges ‚Äì If either Litigation Hold or single item recovery is enabled, this subfolder contains all items that are hard deleted. 
+* Audits ‚Äì If mailbox audit logging is enabled for a mailbox, this subfolder contains the audit log entries. 
+* DiscoveryHolds ‚Äì If In-Place hold is enabled, this subfolder contains all items that meet the hold query parameters and are hard deleted. 
+* Calendar Logging ‚Äì This subfolder contains calendar changes that occur within the mailbox. 
 
 See graphic below from Microsoft on deletions: 
 
@@ -132,7 +131,7 @@ or maliciously permanently deleting content. Placing a mailbox on Litigation hol
     Set-Mailbox -Identity $identity -LitigationHoldEnabled $true
 
 When an Outlook user deletes an item from the Deleted Items folder, that is a _soft delete_, the item is transitioned to 
-the Recoverable Items folder thus disappearing from the Userís view. However, by placing a mailbox on In-Place or Litgation 
+the Recoverable Items folder thus disappearing from the User‚Äôs view. However, by placing a mailbox on In-Place or Litgation 
 hold this in turn stops the MFA from automatically purging messages from the DiscoveryHolds and Purges subfolders. Below are the actions 
 that can be performed in the Recoverable Items folder if Litigation hold is enabled:
 
@@ -142,7 +141,7 @@ that can be performed in the Recoverable Items folder if Litigation hold is enab
 
 ### In summary
 A mailbox on Litigation Hold prevents the items that are specified in the hold from being deleted and transitions them to a hidden folder 
-location called ìRecoverable Itemsî
+location called ‚ÄúRecoverable Items‚Äù
 
 #### Last Minute Additional Notes
 Okay, if you have read to this point here are couple more things to explore:
