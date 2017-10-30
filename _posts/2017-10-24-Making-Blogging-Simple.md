@@ -1,5 +1,4 @@
 ---
-layout: single
 title: Making blogging simple!
 updated: 2017-10-25
 ---
