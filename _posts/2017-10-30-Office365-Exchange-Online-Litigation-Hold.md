@@ -1,7 +1,6 @@
 ---
 title: Office 365 - Email Retention and Litigation Hold - Quick Start
 tags: [Office 365, Exchange Online]
-date: 2017-10-30 
 ---
 
 When it comes to the topic of Litigation Hold, Legal is often involved and getting it "right" has a vital meaning. 
