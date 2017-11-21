@@ -84,7 +84,7 @@ analytics:
 # Site Author
 author:
   name             : "Jeremiah Strong"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Service Desk Administrator who enjoys PowerShell, Technology, and simplicity. I also like cookie dough. And milk."
   location         : "Minneapolis, MN"
   email            :
