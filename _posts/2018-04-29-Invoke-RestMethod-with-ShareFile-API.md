@@ -7,7 +7,7 @@ excerpt: Get the latest, real-time data from the ShareFile rest API.
 The [ShareFile PowerShell SDK](https://github.com/citrix/ShareFile-PowerShell) is absolutely great for accessing and working with
 the [ShareFile REST API](https://api.sharefile.com/rest/). On a downside, the ShareFile snap-in may sometimes be a
 bit outdated since the ShareFile team needs to release a new PowerShell version for
-any new values added to an object. When you go to https://api.sharefile.com/rest/ to
+any new values added to an object. When you go to <https://api.sharefile.com/rest/> to
 review the available API Entities, you may find yourself disappointed that the results
 are not accessible when using the PowerShell snap-in. Often, no errors will appear
 or the errors are cryptic. For example, one error that may be returned is as follows:  
@@ -27,7 +27,7 @@ At the time of this post, in order to create an OAuth token to use `Invoke-RestM
 Of course, we are using Windows PowerShell so be sure that you have access on your workstation to this Windows utility.
 
 ## Generating your OAuth token
-Before we can use `Invoke-RestMethod`, an OAuth Token needs to be created with ShareFile. To do this, navigate to https://api.sharefile.com/rest/oauth2-request.aspx
+Before we can use `Invoke-RestMethod`, an OAuth Token needs to be created with ShareFile. To do this, navigate to <https://api.sharefile.com/rest/oauth2-request.aspx>
 
 On this page, you will need to authenticate with your ShareFile credentials if you have not already done so by clicking the link ["Click here"](https://api.sharefile.com/rest/login.aspx?displayMessage=0&referrer=/rest/oauth2-request.aspx) to login.  
 
@@ -38,7 +38,7 @@ Upon successful authentication, you should be redirected to the OAuth Token requ
 
 After filling in your information, choose Generate API Key. Here are the values I used:
 
-![ShareFile OAuth Form](images\sharefile\ShareFile-OAuthForm.JPG)
+![ShareFile OAuth Form](..\images\sharefile\ShareFile-OAuthForm.JPG)
 
 After generation, at the bottom of the page in the **Your API Keys** section, record the Client ID and the Client Secret for later use.
 
@@ -74,7 +74,7 @@ You will need to update `$theURI` to include your subdomain and the ID of your r
 
 ### Removing your OAuth Token
 This is a nice solution for when the ShareFile PowerShell snap-in is unable to get the data
-you require. However, on the next iteration of the ShareFile Snap-in, you may no longer need this method. To remove the OAuth token, navigate to https://api.sharefile.com/rest/oauth2-request.aspx  
+you require. However, on the next iteration of the ShareFile Snap-in, you may no longer need this method. To remove the OAuth token, navigate to <https://api.sharefile.com/rest/oauth2-request.aspx>  
 Authenticate with your ShareFile credentials if not already logged in. At the bottom of the page, in the **Your API keys** section, locate your Application name and to the right choose the trash can icon to remove.
 
 Well, time to hit the road again.
