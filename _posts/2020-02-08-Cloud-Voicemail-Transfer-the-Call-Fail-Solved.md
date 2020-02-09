@@ -3,6 +3,7 @@ title: Cloud Voicemail: Transfer the Call Fail - Solved
 comments: true
 tags: [Skype for Business, Office 365]
 excerpt: Upon migrating from Unified Messaging (UM) to Cloud Voicemail (CV), the call answer rule to transfer a call randomly broke.  
+
 ---
 On November, 2019, our organization decided to migrate from Exchange Unified Messaging Online to Cloud Voicemail.
 
