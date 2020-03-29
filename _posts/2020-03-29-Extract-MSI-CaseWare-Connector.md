@@ -4,7 +4,7 @@ comments: true
 tags: [Software]
 excerpt: Get the MSI executable for CaseWare Connector to make deployment easier!
 ---
-In a [previous post](../Extract-MSI-CaseWare-Working-Papers.md) we obtained the core software MSI for the base installation of CaseWare Working Papers. In this post, we are obtaining the MSI for [CaseWare Connector](https://documentation.caseware.com/2018/Connector/en/Content/Overview/c_Introducing_CaseWare_Connector.htm).
+In a [previous post]({{ site.baseurl }}{% post_url 2019-11-08-Extract-MSI-CaseWare-Working-Papers %}) we obtained the core software MSI for the base installation of CaseWare Working Papers. In this post, we are obtaining the MSI for [CaseWare Connector](https://documentation.caseware.com/2018/Connector/en/Content/Overview/c_Introducing_CaseWare_Connector.htm).
 
 So, to extract the MSI from the executable from the exe, follow the steps below.
 
