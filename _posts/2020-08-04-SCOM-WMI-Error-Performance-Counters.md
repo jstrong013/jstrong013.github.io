@@ -5,7 +5,7 @@ tags: [SCOM,Software]
 excerpt: "Operations Manager issued a critical alert for two performance monitors. To fix this scenario you need to rebuild the performance counters."
 ---
 I logged into work this morning with two critical alerts from System Center
-Operations Manager from on one of our Domain Controllers:
+Operations Manager from one of our Domain Controllers:
 
 1. `The LSASS process has exceeded the processor utilization threshold`
 2. `The total number of ATQ threads in use has exceeded one or more thresholds over multiple samples.`
