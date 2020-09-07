@@ -26,7 +26,7 @@ feature is enabled on your account.
 the Certificate (Base64). The certificate will download as the name you used in
 step 4. In our example, "CCH Axcess Tax.cer" The certificate will be used in a later step.  
 
-Stay signed in and on this screen to reference for later steps.
+ Stay signed in and on this screen to reference for later steps.
 
 8. Launch CCH Axcess Dashboard > Choose Application Links
 9. In the Firm grouping, choose Settings and defaults
@@ -42,8 +42,8 @@ I suggest putting https://*contoso*.cchaxcess.com where *contoso* is your domain
 15. Change the Federation type to Passive Federation  
 16. Next, the SAML Single Sign On Service URL should be set to the value Logon URL (section 4).  
 
-To this point, your values should reflect the following:  
-![CCH Axcess Values]({{ site.url }}{{ site.baseurl }}/images/cchaxcess/CCHAxcessValues-AzureAD.png)
+ To this point, your values should reflect the following:  
+ ![CCH Axcess Values]({{ site.url }}{{ site.baseurl }}/images/cchaxcess/CCHAxcessValues-AzureAD.png)
 
 16. Hit next  
 17. Select Generate metadata and save it to your desired location  
