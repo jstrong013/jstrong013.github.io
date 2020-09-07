@@ -28,7 +28,7 @@ step 4. In our example, "CCH Axcess Tax.cer" The certificate will be used in a l
 
  Stay signed in and on this screen to reference for later steps.
 
-{start:="8"}
+{:start="8"}
 8. Launch CCH Axcess Dashboard > Choose Application Links
 9. In the Firm grouping, choose Settings and defaults
 10. In the resulting window, navigate to Login setup
