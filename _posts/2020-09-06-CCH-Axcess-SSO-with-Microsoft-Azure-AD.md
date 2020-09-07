@@ -28,6 +28,7 @@ step 4. In our example, "CCH Axcess Tax.cer" The certificate will be used in a l
 
  Stay signed in and on this screen to reference for later steps.
 
+{start:="8"}
 8. Launch CCH Axcess Dashboard > Choose Application Links
 9. In the Firm grouping, choose Settings and defaults
 10. In the resulting window, navigate to Login setup
@@ -45,13 +46,14 @@ I suggest putting https://*contoso*.cchaxcess.com where *contoso* is your domain
  To this point, your values should reflect the following:  
  ![CCH Axcess Values]({{ site.url }}{{ site.baseurl }}/images/cchaxcess/CCHAxcessValues-AzureAD.png)
 
-16. Hit next  
-17. Select Generate metadata and save it to your desired location  
-18. Back on the SAML-based Sign-on configuration page (at the top), choose Upload metadata file. Browse to the location you saved the file in step 17 and choose Add.  
-19. Click Save in the next window.  
-20. If prompted to Test single sign-on with your app, choose No, I'll test later.
-21. Next, on the Azure page, navigate from Single Sign-on to Users and Groups.
-22. Assign the Azure Enterprise App to your beta Users by clicking Add user > Add individual account or
+{:start="17"}
+17. Hit next  
+18. Select Generate metadata and save it to your desired location  
+19. Back on the SAML-based Sign-on configuration page (at the top), choose Upload metadata file. Browse to the location you saved the file in step 17 and choose Add.  
+20. Click Save in the next window.  
+21. If prompted to Test single sign-on with your app, choose No, I'll test later.
+22. Next, on the Azure page, navigate from Single Sign-on to Users and Groups.
+23. Assign the Azure Enterprise App to your beta Users by clicking Add user > Add individual account or
 a group. Click Select. Click Assign.
 
 ## Testing Single Sign-On with your Pilot/Beta group  
