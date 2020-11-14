@@ -45,6 +45,7 @@ In my flow, I decided to name my flow "My Daily Agenda Flow" with today as the s
 5. You will enter the Power Automate editor. Choose "+ New step"
 6. For the action, search for "Get Calendar View of events V3" in Actions  
 ![Action Get Calendar View of Events V3]({{ site.url }}{{ site.baseurl }}/images/powerautomate/ActionGetCalendarViewofEventsV3.png)  
+
 {:start="7"}
 7. Enter our desired parameters  
 
