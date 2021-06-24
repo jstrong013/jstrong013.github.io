@@ -1,5 +1,6 @@
 ---
 title: "Operations Manager failed to Retrieve Raw Performance Data"
+last_modified_at: 2021-06-23T20:31-06:00
 comments: true
 tags: [SCOM,Software]
 excerpt: "Operations Manager issued a critical alert for two performance monitors. To fix this scenario you need to rebuild the performance counters."
@@ -21,12 +22,12 @@ and
 The solution was to [rebuild Performance Counter Library values](https://support.microsoft.com/en-us/help/300956/how-to-manually-rebuild-performance-counter-library-values).
 This is achieved by navigating to
 `C:\Windows\System32`  
-Run `lodtcr /R`  
+Run `lodctr /R`  
 
 **Error Message:** Error: Unable to rebuild performance counter setting from system backup store, error code is 2.  
 {: .notice--info}
 
 If you encounter the above error, switch directories to `C:\Windows\syswow64`   
-Then run `lodtcr /R`  
+Then run `lodctr /R`  
 
 For the above tip, special thanks to this [question post](https://social.technet.microsoft.com/Forums/ie/en-US/9b01e1a6-d872-4f28-9280-f35d6ca02a9f/lodctr-r-error-code-2?forum=w7itprogeneral).
