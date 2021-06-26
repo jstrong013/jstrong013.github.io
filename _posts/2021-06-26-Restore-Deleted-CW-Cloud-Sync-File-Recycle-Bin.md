@@ -15,4 +15,5 @@ You can restore the deleted document by:
 
 **Info** If you clicked **Restore the selected items** in the Windows Recycle bin menu 
 rather than drag and drop, then the file is likely located
-at C:\Users\\*username*\AppData\Local\Temp {: .notice--info}
+at C:\Users\\*username*\AppData\Local\Temp 
+{: .notice--info}
