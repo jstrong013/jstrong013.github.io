@@ -2,7 +2,7 @@
 title: "Cisco AnyConnect Ping to IPv4 Address Fails"
 comments: true
 tags: [Software,Network]
-excerpt: 'Cisco AnyConnect version 4.x fails to do a ````nslookup```` or returns the response on
+excerpt: 'Cisco AnyConnect version 4.x fails to do a nslookup or returns the response on
 a ping to an IP address "could not find host" despite having an active connection established.'    
 ---
 Hello friends - I had a new critical case submission that came up.
@@ -39,15 +39,17 @@ a backup if you deem relevant in your environment.
 To resolve, I created the following registry key (no reboot necessary):
 
     HKLM:\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters
-    DisableParallelAandAAAA (DWord) to Value 1
-Of course, I have to include the PowerShell way:
-````Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters" -Name DisableParallelAandAAAA -Value 1 -Type DWord````
+    DisableParallelAandAAAA (DWord) to Value 1  
 
-You may also have to create an additional registry key entry (I did not have to do this)
+Of course, I have to include the PowerShell way:  
+````Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters" -Name DisableParallelAandAAAA -Value 1 -Type DWord````  
+
+You may also have to create an additional registry key entry (I did not have to do this):  
 
     HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows NT\DNSClient
-    DisableSmartNameResolution (DWord) to Value 1
-The almighty PowerShell way:
+    DisableSmartNameResolution (DWord) to Value 1  
+
+The almighty PowerShell way:  
 ````Set-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows NT\DNSClient" -Name DisableSmartNameResolution -Value 1 -Type DWord````  
 
 While untested in my lab, I believe you may achieve the same result with a Group Policy:
@@ -62,7 +64,7 @@ to respond is determined to be the source of truth. In reality, with VPN, it is 
 DNS leak. To prevent this "optimization," then you need to disable the behavior.
 
 Cisco provides this modification in their release notes:
-* https://www.cisco.com/c/en/us/td/docs/security/vpn_client/anyconnect/anyconnect410/release/notes/release-notes-anyconnect-4-10.html
-* https://www.cisco.com/c/en/us/td/docs/security/asdm/7_14/release/notes/rn714.html
+* [Release Notes for Cisco AnyConnect Secure Mobility Client, Release 4.10](https://www.cisco.com/c/en/us/td/docs/security/vpn_client/anyconnect/anyconnect410/release/notes/release-notes-anyconnect-4-10.html)  
+* [Release Notes for Cisco ASDM, 7.14(x)](https://www.cisco.com/c/en/us/td/docs/security/asdm/7_14/release/notes/rn714.html)
 
 Well, I hope this helps ya out. Have a wonderful day!
