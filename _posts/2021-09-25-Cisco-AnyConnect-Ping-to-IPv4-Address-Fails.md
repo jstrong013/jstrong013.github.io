@@ -2,8 +2,8 @@
 title: "Cisco AnyConnect Ping to IPv4 Address Fails"
 comments: true
 tags: [Software,Network]
-excerpt: "Cisco AnyConnect version 4.x fails to do a ````nslookup```` or returns the response on
-a ping to an IP address "could not find host" despite having an active connection established."  
+excerpt: 'Cisco AnyConnect version 4.x fails to do a ````nslookup```` or returns the response on
+a ping to an IP address "could not find host" despite having an active connection established.'    
 ---
 Hello friends - I had a new critical case submission that came up.
 A ticket came across my queue where the User was connected to
