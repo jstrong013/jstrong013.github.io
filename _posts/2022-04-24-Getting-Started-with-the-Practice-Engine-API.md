@@ -34,9 +34,72 @@ Be sure to change ```contoso``` for your site.
 PE API version 9.6 and later uses the OpenID connect protocol.  
 
 ### PowerShell
-To create the authorization header in PowerShell
+To create the authorization header in [PowerShell](https://github.com/jstrong013/PracticeEngine/blob/master/Create-PEAuthorizationHeader.ps1):  
 
-<script src="https://raw.githubusercontent.com/jstrong013/PracticeEngine/7cf3ca68528f183ad64176577f14cdc5a3ae505b/Create-PEAuthorizationHeader.ps1"></script>
+```powershell  
+<#
+.Synopsis
+    Create the bearer token to use on Practice Engine API Rests requests (header)
+.DESCRIPTION
+    After creating your Application App ID and App Key, you can use this
+    to create the authorization header for your Practice Engine API Requests.
+.PARAMETER AppID
+    The Application ID generated from Practice Engine that is tied to a Practice Engine user.
+.PARAMETER AppKey
+    The Application Key generated from Practice Engine that is tied to a Practice Engine user.
+.PARAMETER BaseURL
+    The base URL of your Practice Engine site. The submitted URL must be a valid URL, for example
+    https://mysite.practiceenginehosted.com would pass validation.
+.EXAMPLE
+    C:\PS>$PEAuthHeader = Create-PEAuthorizationHeader -AppId 'd88f9b633f664d62b7c5126348f27dff' -AppKey 'WGGV0y3EiD9M/MZV12NbO/lYrE174u3M1yaV1jZf3lg=' -BaseURL 'https://mypesite.practiceenginehosted.com'
+
+#>
+function Create-PEAuthorizationHeader {
+
+    [CmdletBinding()]
+    param (
+
+        # AppId The App ID generated from Practice Engine.
+        [Parameter(Mandatory=$True)]
+        [ValidateNotNullOrEmpty()]
+        [string] $AppId,
+
+        #AppKey The App Key (secret) generated from Practice Engine.
+        [Parameter(Mandatory=$True)]
+        [ValidateNotNullOrEmpty()]
+        [string] $AppKey,
+
+        #BaseURL The base URL of your Practice Engine hosted website
+        [Parameter(Mandatory=$True)]
+        [ValidatePattern("https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&=]*)")]
+        [string] $BaseURL
+
+    )
+
+    $AuthURL = $BaseURL + '/auth'
+
+    $Response = Invoke-RestMethod -Uri ($AuthURL +'/.well-known/openid-configuration') -Method Get
+
+    $TokenURL = $Response.token_endpoint
+
+    $base64AuthInfo = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(("{0}:{1}" -f $AppId,$AppKey)))
+
+    $PayLoad = @{
+        grant_type = 'client_credentials'
+        scope = 'pe.api'
+    }
+
+    $AuthToken = Invoke-RestMethod -Uri $TokenURL -Method Post -Headers @{Authorization=("Basic {0}" -f $base64AuthInfo)} -Body $PayLoad
+
+    #Output as Hashtable
+    $BearerToken = @{
+        'Authorization' = 'Bearer ' + $AuthToken.access_token
+    }
+
+    return $BearerToken
+
+} # End Create-PEAuthorizationHeader
+```
 
 ### Power Query M
 For the [Power Query M formula language](https://docs.microsoft.com/en-us/powerquery-m/)
@@ -77,7 +140,7 @@ in
 ### Python
 Github User [KennyKennedy](https://github.com/kennykennedy) can help us here.
 
-```NumPy
+```python  
 import requests, json
 
 servurl = 'https://contoso.pehosted.com'
@@ -92,7 +155,8 @@ resptoken = requests.post(tokenurl, data=authtype, auth=auth)
 token = resptoken.json()['access_token']
 apiheader = {'Authorization': 'Bearer ' + token}
 
-```
+```  
+
 ### Postman
 Launch the Postman client. Create a new HTTP request with the POST command.
 The request URL: https://contoso.pehosted.com/auth/connect/token  
@@ -129,7 +193,7 @@ Remember to update ```contoso``` for your site.
 
 ### PowerShell  
 
-```PowerShell
+```powershell      
 $me = Invoke-RestMethod -Uri 'https://contoso.pehosted.com/pe/api/StaffMember/Me' -Method Get -Headers $authorizationheader
 ```
 
@@ -151,7 +215,7 @@ in
 
 ### Python
 
-```NumPy
+```python  
 from pprint import pprint
 apiurl = 'https://contoso.pehosted.com/pe/api/StaffMember/Me'
 
