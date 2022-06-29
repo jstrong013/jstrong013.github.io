@@ -1,9 +1,17 @@
 ---
 title: "Configure CCH Axcess SSO with Azure AD"
+last_modified_at: 2022-06-28 21:01 
 comments: true
 tags: [Software]
 excerpt: "Configure Single Sign-on with Microsoft Azure Active Directory for Wolter Kluwers CCH Axcess Application."
 ---
+
+**Legacy Content Warning:** The post is now out-of-date (first posted on September 9, 2020). While it may still be helpful as a reference, 
+please note the content and steps are missing critical steps to finish the process. As of today, I have no plans to update the information. 
+With that said, I have kept this post as a historical reference. Public comments (if open) are always welcome at the bottom of the post to help the next person. 
+For any configuration help, I recommend creating a support case with Wolters Kluwer. As always, I appreciate you stopping by!  
+{: .notice--warning}  
+
 Single Sign-on is a huge time saving, stress relief, and
 secure choice to consider when using the CCH Axcess Tax Software. One possible choice
 for the SSO configuration is Microsoft Azure Active Directory. The below guide will assist with this setup.
