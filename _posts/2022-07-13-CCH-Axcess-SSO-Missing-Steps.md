@@ -2,7 +2,7 @@
 title: "CCH Axcess SSO Missing Steps"
 comments: true
 tags: [Software]
-excerpt: >"A post that identifies common configuration issues from a previous blog post on setup and configuration of Azure SSO for the CCH Axcess Application: The Reply URL and the appropriate Attributes and Claims."
+excerpt: "A post that identifies common configuration issues from a previous blog post on setup and configuration of Azure SSO for the CCH Axcess Application."
 ---
 Earlier this month, I received an email from a lovely soul named Lauren. She informed me that she referenced my previous 
 post, ![Configure CCH Axcess SSO with Azure AD]( {% post_url 2020-09-06-CCH-Axcess-SSO-with-Microsoft-Azure-AD.md %}/?utm_source=InternalBlog&utm_medium=LinkReference&utm_campaign=BlogPost ). Unfortunately, she 
