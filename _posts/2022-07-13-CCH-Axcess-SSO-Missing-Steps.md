@@ -5,7 +5,7 @@ tags: [Software]
 excerpt: "A post that identifies common configuration issues from a previous blog post on setup and configuration of Azure SSO for the CCH Axcess Application: The Reply URL and the appropriate Attributes and Claims."
 ---
 Earlier this month, I received an email from a lovely soul named Lauren. She informed me that she referenced my previous 
-post, [Configure CCH Axcess SSO with Azure AD]({{ site.url }}{{ site.baseurl }}{% post_url 2020-09-06-CCH-Axcess-SSO-with-Microsoft-Azure-AD.md %}). Unfortunately, she 
+post, [Configure CCH Axcess SSO with Azure AD]({{ site.url }}{{ site.baseurl }}{% post_url 2020-09-06-CCH-Axcess-SSO-with-Microsoft-Azure-AD %}). Unfortunately, she 
 ran into some configuration issues.  
 
 After a seven minute screenshare, the issues on the configuration were discovered.  
