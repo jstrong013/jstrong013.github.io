@@ -5,6 +5,7 @@ excerpt: "Standard disclaimer for the information contained on this site"
 comments: false  
 date: 2022-09-16T13:22:00-06:00
 last_modified_at: 2022-09-16T13:22:00-06:00
+show_date: true
 ---
 This is a personal blog about sharing the creation of solutions, thoughts, and other random musings.
 The representation of these views are mine and may not be attributed to any company, individual,
@@ -55,7 +56,7 @@ corrections.
 #### Thank You  
 I probably should have included this page sooner. I am happy to be a contributor to the community that
 I have so heavily relied on over the years.  
-I have read, referenced, and viewed thousands of posts in community forums, websites, and blogs to solve many 
+I have read, referenced, and viewed thousands of posts in community forums, websites, and blogs to solve many
 technical issues and errors.
 I now have the knowledge and understanding of the work that goes into these posts. Due to this background, I want
 to simply say thanks.  
