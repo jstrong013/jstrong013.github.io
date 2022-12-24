@@ -4,7 +4,7 @@ comments: true
 tags: PowerShell
 excerpt: "Move files from one directory to another. A simple PowerShell script to save time from a manual process."
 ---
-In a previous post, I shared a few PowerShell automation ideas that you could [create today]({{ site.url }}{{ site.baseurl }}{% post_url 2022-11-02-Five-PowerShell-Shortcuts-to-Learn-Today %}?utm_source=InternalBlog&utm_medium=LinkReference&utm_campaign=BlogPost).  
+In a previous post, I shared a few PowerShell automation ideas that you could [create today]({{ site.url }}{{ site.baseurl }}{% post_url 2021-11-07-Seven-PowerShell-Automation-Ideas-to-Create-Today %}?utm_source=InternalBlog&utm_medium=LinkReference&utm_campaign=BlogPost).  
 I had concluded in the blog post that any repetitive task is an ideal candidate. 
 So today, I found myself performing a task manually that was starting to get cumbersome. 
 That is, I was downloading documents then moving them to the root level directory.  
