@@ -129,6 +129,13 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  links            :
+    - label        : "Pluralsight"
+      icon         : "fas fa-fw fa-user-circle"
+      url          : "https://app.pluralsight.com/profile/jeremiah-strong"
+    - label        : "Microsoft Learn"
+      icon         : "fab fa-fw fa-microsoft"
+      url          : "https://learn.microsoft.com/en-us/users/jeremiahstrong/"
 
 
 # Reading Files
