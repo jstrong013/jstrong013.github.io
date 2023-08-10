@@ -20,7 +20,7 @@ title                    : "Get-Info -Information Technology"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jeremiah Strong"
-description              : "A twenty something perpetual learner who writes about technology."
+description              : "A perpetual learner who writes about technology. Sometimes."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Jeremiah Strong"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Senior Service Desk Administrator who enjoys PowerShell, Technology, and simplicity. I also like cookie dough. And milk."
+  bio              : "Senior Systems Administrator who enjoys PowerShell, Technology, and simplicity. I also like cookie dough. And milk."
   location         : "Minneapolis, MN"
   email            :
   uri              :
