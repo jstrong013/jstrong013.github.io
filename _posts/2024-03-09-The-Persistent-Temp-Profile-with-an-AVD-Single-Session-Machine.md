@@ -11,7 +11,7 @@ are greeted with this pesky message:
 
 > We can't sign in to your account: This problem can often be fixed by signing out of your account and then signing back in. If you don't sign out now, any files you create or changes you make will be lost.  
 
-![We can't sign in to your account]]({{ site.url }}{{ site.baseurl }}/images/azurevirtualdesktop/2024-03-wecantsignintoyouraccount.png)  
+![We can't sign in to your account]({{ site.url }}{{ site.baseurl }}/images/azurevirtualdesktop/2024-03-wecantsignintoyouraccount.png)  
 
 Unsurprisingly, a log off and login did not fix a thing.  
 
