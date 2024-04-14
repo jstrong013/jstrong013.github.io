@@ -4,6 +4,7 @@ title: "About Me"
 excerpt: "Hello, my name is Jeremiah. Nice to meet you!"  
 comments: false  
 date: 2024-04-14T13:22:00-06:00
+last_modified_at: 2022-04-14T13:33:00-06:00
 show_date: true
 ---
 Hi, [Boozhoo](https://ojibwe.lib.umn.edu/main-entry/boozhoo-pc-interj), and welcome to my corner of the digital world. 
@@ -16,7 +17,7 @@ Beyond the confines of the workplace and the world of scripting, you'll often fi
 And yes, I've been known to blend two of these activities together!  
 
 ## Blogging Journey  
-The genesis of this blog traces back to a pivotal moment: solving a particularly aggravating technical challenge with a server thanks to insights gleaned from an IT legend online.
+The genesis of this blog traces back to a pivotal moment: solving a particularly aggravating technical challenge with a server thanks to insights gleaned from an [IT legend online](https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png).
 
 Inspired by the generosity of the online community and fueled by a desire to pay it forward, I embarked on this blogging journey as a means to contribute and share knowledge with fellow enthusiasts. 
 While my posts span various topics, the common threads are technology insights and glimpses into my life as a Systems Engineer.  
