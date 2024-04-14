@@ -18,5 +18,7 @@ main:
   #   url: /sitemap/
   # - title: "External Link"
   #   url: https://google.com
+   - title: "About Me"
+     url: /about/
    - title: "Disclaimer"
      url: /disclaimer/
