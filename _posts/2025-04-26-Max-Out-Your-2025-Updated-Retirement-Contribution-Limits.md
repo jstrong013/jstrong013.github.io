@@ -9,7 +9,7 @@ Welcome to 2025, stranger! It’s me again, popping back into your life with ano
 Honestly, I reference these numbers way too often myself, so I figured, why not make it easier for both of us and just post them here?
 
 
-**Discalimer:** Look, I’m not a financial wizard, guru, or anything even remotely resembling someone with official credentials. Just a guy with a keyboard, a dream, and a calculator. Please double-check this info and chat with a certified financial advisor before making any big money moves.
+**Disclaimer:** Look, I’m not a financial wizard, guru, or anything even remotely resembling someone with official credentials. Just a guy with a keyboard, a dream, and a calculator. Please double-check this info and chat with a certified financial advisor before making any big money moves.
 {: .notice--primary}  
 
 # Time to Dive in - Max Retirement Amounts
