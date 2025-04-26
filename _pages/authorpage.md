@@ -8,7 +8,7 @@ last_modified_at: 2022-04-14T13:33:00-06:00
 show_date: true
 ---
 Hi, [Boozhoo](https://ojibwe.lib.umn.edu/main-entry/boozhoo-pc-interj), and welcome to my corner of the digital world. 
-I'm Jeremiah, a Senior Systems Administrator with a passion for all things PowerShell, fitness, and continuous learning. 
+I'm Jeremiah, an IT Manager in Systems Administration with a passion for all things PowerShell, fitness, and continuous learning. 
 Currently calling Minneapolis, Minnesota my home, I thrive on crafting purposeful, meticulously designed, and automated solutions for both on-premises and cloud-based systems.
 
 My professional journey often leads me to the realms of Azure, Intune, and Office 365, where I leverage my favorite tools: **PowerShell**, Power Automate, and Terraform/Bicep, to streamline operations and enhance productivity.
