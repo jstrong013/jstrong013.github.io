@@ -147,6 +147,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Privacy Policy"
+      icon: "fa-solid fa-fingerprint"
+      url: /privacy/
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
