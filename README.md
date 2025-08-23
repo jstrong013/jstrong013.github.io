@@ -31,13 +31,13 @@ This blog uses the minimal mistakes theme, check it out above.
 - [Gumshoe](https://github.com/cferdinandi/gumshoe)
 - [jQuery throttle / debounce](http://benalman.com/projects/jquery-throttle-debounce-plugin/)
 - [Lunr](http://lunrjs.com)
-
+- [Clipboard.js](https://clipboardjs.com)
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2013-2020 Michael Rose and contributors
+Copyright (c) 2013-2025 Michael Rose and contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -110,3 +110,7 @@ Pure Liquid Jekyll Table of Contents is distributed under the terms of the [MIT 
 Minimal Mistakes incorporates [Lunr](http://lunrjs.com),
 Copyright (c) 2018 Oliver Nightingale.
 Lunr is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+Minimal Mistakes incorporates [clipboard.js](https://clipboardjs.com/),
+Copyright (c) 2021 Zeno Rocha.
+Clipboard.js is distributed under the terms of the [MIT License](https://opensource.org/licenses/MIT).
