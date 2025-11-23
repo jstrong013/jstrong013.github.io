@@ -18,13 +18,13 @@ I strongly suggest working with a certified, reputable financial advisor before 
 | Retirement Account            | 2025 Max | 2026 Max | Amount Increase |  
 | ----------------------------- | -------- | -------- | --------------- |  
 | Roth IRA / Traditional IRA    | $7,000   | $7,500   | $500            |  
-| HSA - Individual (Self-only)  | $4,150   | $4,400   | $100            |  
+| HSA - Individual (Self-only)  | $4,300   | $4,400   | $100            |  
 | HSA - Family Coverage         | $8,550   | $8,750   | $200            |  
 | 401(k) Deferral               | $23,500  | $24,500  | $1000           | 
 | 401(k) Annual Additions       | $70,000  | $72,000  | $2,000          |
 | IRA Catch-Up                  | $1,000   | $1,100   | $100            |
 | HSA Catch-Up (55+)            | $1,000   | $1,000   | $0              | 
-| 401(k) Catch-Up (50+)         | $7,500   | $7,500   | $0              |
+| 401(k) Catch-Up (50+)         | $7,500   | $8,000   | $500            |
 
 With inflation chasing your dollars, increase their power by investing in your retirement accounts. 
 Hello my darling HSA account.  
@@ -34,7 +34,8 @@ With the vastness of the internet, feel free to dive deeper with my sources:
 
 * [401(k) limit increases to $24,500 for 2026, IRA limit increases to $7,500](https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500)
 * [HSA contribution limits and eligibility rules for 2025 and 2026](https://www.fidelity.com/learning-center/smart-money/hsa-contribution-limits)  
-* [Rev. Proc. 2025-19](https://www.irs.gov/pub/irs-drop/rp-25-19.pdf)
+* [Rev. Proc. 2025-19](https://www.irs.gov/pub/irs-drop/rp-25-19.pdf)  
+* [Notice 2025-67](https://www.irs.gov/pub/irs-drop/n-25-67.pdf)
 
 ### Time to pull out the calculator  
 Alrighty, since the above numbers can feel daunting, I like to break out the per paycheck math notes.    
