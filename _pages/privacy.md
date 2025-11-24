@@ -4,6 +4,7 @@ title: "Privacy Policy"
 excerpt: "Your privacy matters. I don't sell your data - any information collected is simply to improve this blog and your experience. Learn more about how your information is handled here."  
 comments: false  
 date: 2025-04-27T11:46:00-06:00
+last_modified_at: 2025-11-23T20:04:00-06:00
 show_date: true
 ---
 Thanks for stopping by. I want to keep things simple and transparent: 
@@ -35,9 +36,13 @@ The Site uses **Google Analytics** gather insights into how visitors interact wi
 - Browser and device type
 - Approximate Geographic location  
 - Demographic information such as age and gender (if available)  
+- Interest reporting (if available)  
+- Google provided user Data (if available)  
+- Google Analytics tracking and modeling features  
+- Ad personalization (if enabled or implemented)  
 
 Google Analytics uses cookies to collect this information.  
-You may opt out of Google Analytics tracking at any time by installing the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout).  
+You may opt out of Google Analytics tracking at any time by installing the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout).  You may also manage, access, and delete your data via [My Activity](https://myactivity.google.com/myactivity).  
 
 For further details, please review the [Google Privacy Policy](https://policies.google.com/privacy).
 
